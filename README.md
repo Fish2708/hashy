@@ -10,6 +10,10 @@ Generating and Checking Hashes
   - xxh32
   - xxh64
   - xxh128
+## Features
+  - Easy to use
+  - Output generated Hash to File
+  - Automatically install needed packages using apt
 ## Usage
 #### Generating:
   - hashy gen "text" -algo
