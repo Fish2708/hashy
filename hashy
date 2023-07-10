@@ -37,7 +37,6 @@ if ! [ -x "$(command -v md5sum)" ]; then
   echo "Installing core-utils in 5 seconds..."
   sleep 5
   sudo apt install coreutils -y
-  exit 1
 fi
 
 if ! [ -x "$(command -v sha256sum)" ]; then
@@ -45,7 +44,6 @@ if ! [ -x "$(command -v sha256sum)" ]; then
   echo "Installing core-utils in 5 seconds..."
   sleep 5
   sudo apt install coreutils -y
-  exit 1
 fi
 
 if ! [ -x "$(command -v sha512sum)" ]; then
@@ -53,7 +51,6 @@ if ! [ -x "$(command -v sha512sum)" ]; then
   echo "Installing core-utils in 5 seconds..."
   sleep 5
   sudo apt install coreutils -y
-  exit 1
 fi
 
 if ! [ -x "$(command -v xxhsum)" ]; then
@@ -61,7 +58,6 @@ if ! [ -x "$(command -v xxhsum)" ]; then
   echo "Installing xxhash in 5 seconds..."
   sleep 5
   sudo apt install xxhash -y
-  exit 1
 fi
 
 if ! [ -x "$(command -v b2sum)" ]; then
@@ -69,7 +65,6 @@ if ! [ -x "$(command -v b2sum)" ]; then
   echo "Installing core-utils in 5 seconds..."
   sleep 5
   sudo apt install coreutils -y
-  exit 1
 fi
 
 if ! [ -x "$(command -v b3sum)" ]; then
@@ -77,7 +72,6 @@ if ! [ -x "$(command -v b3sum)" ]; then
   echo "Installing b3sum in 5 seconds..."
   sleep 5
   sudo apt install b3sum -y
-  exit 1
 fi
 
 if [[ $1 == "" ]]; then
