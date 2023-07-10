@@ -16,8 +16,8 @@ Generating and Checking Hashes
   - Automatically install needed packages using apt
 ## Usage
 #### Generating:
-  - hashy gen "text" -algo
+  - ./hashy.sh gen "text" -algo
 #### Checking:
-  - hashy check "text" "hash" -algo
+  - ./hashy.sh check "text" "hash" -algo
 #### Flags
   - -o Output Generated Hash to ./output.txt
