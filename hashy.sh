@@ -18,7 +18,6 @@ if [[ $* == --help || $* == -h ]]; then
     echo "        Check: hashy check 'cleartext' 'hash'"
     echo "Flags: -o : output generated hash to the file ./output.txt"
     echo "       -h or --help : Show this Help"
-#    echo "       -f - read input from file"
     echo ""
     echo "Supported Algorithms"
     echo "  -md5"
