@@ -21,3 +21,4 @@ Generating and Checking Hashes
   - ./hashy.sh check "text" "hash" -algo
 #### Flags
   - -o Output Generated Hash to ./output.txt
+  - --help / -h Display Help
